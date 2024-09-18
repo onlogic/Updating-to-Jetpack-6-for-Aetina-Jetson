@@ -64,7 +64,7 @@ Next we will move onto installing Nvidia’s SDKManager which will allow us to d
 Now that we’ve got SDKManager setup and the Jetson image files downloaded, we can move onto to installing Jetpack 6. Since the image files (BSP) we’ve downloaded are designed to work with a Nvidia Dev kit, we need to apply the patch specific to Aetina devices.
 
 ### Step 1: Download the patch files <br/>
-1. Download the correct patch for your system. The Orin Nano, NX, and AGX have different files. You can download those directly from this repo in the files folder respective of your system's processor.
+1. Download the correct patch for your system. The Orin Nano, NX, and AGX have different files. You can download those directly from the OnLogic product page of your system.
 2. Copy the patch into the Host PC path ```/home/nvidia/nvidia_sdk``` using file manager
 
 ### Step 1: Unzip the downloaded files in the /home/nvidia/nvidia_sdk directory <br/>
