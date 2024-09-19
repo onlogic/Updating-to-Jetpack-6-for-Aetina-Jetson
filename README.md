@@ -68,7 +68,7 @@ Now that we’ve got SDKManager setup and the Jetson image files downloaded, we 
 2. Copy the patch into the Host PC path ```/home/nvidia/nvidia_sdk``` using file manager
 
 ### Step 1: Unzip the downloaded files in the /home/nvidia/nvidia_sdk directory <br/>
-2. For the Patch ```Sudo tar zxvf PATCH_[Your File Version].tar.gz```
+2. For the Patch ```sudo tar zxvf PATCH_[Your File Version].tar.gz```
 
 ### Step 3: Patch Update <br/>
 1. Open the new folder that has appeared in the current directory. You went to the right place if you see a file named setup.sh.
@@ -97,7 +97,7 @@ If you can still see a device with the name _Nvidia Corp. APX_, and does not hav
     - Your directory will look slightly different if on a Nano or AGX
 2. Open a new terminal window at this directory and run the following command:
    ```
-   sudo ./tools/kernel_flash/l4t_initrd_flash.sh --external-device nvme0n1p1 -p "-c ./bootloader/generic/cfg/flash_t234_qspi.xml" -c ./tools/kernel_flash/flash_l4t_t234_nvme.xml --showlogs --network usb0 jetson-orin-nanodevkit nvme0n1p1
+   sudo ./tools/kernel_flash/l4t_initrd_flash.sh --external-device nvme0n1p1 -p "-c ./bootloader/generic/cfg/flash_t234_qspi.xml" -c ./tools/kernel_flash/flash_l4t_t234_nvme.xml --showlogs --network usb0 jetson-orin-nano-devkit nvme0n1p1
    ```
    - Make sure this stays formatted correctly, when copying to a terminal window
    - This will take a while and the Jetson may reboot a few times.
