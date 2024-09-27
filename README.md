@@ -1,7 +1,6 @@
 # Upgrading to Jetpack 6 on Aetina Jetson Devices
-**1.0 Release Note: Currently this only reflects the process for updating Orin Nano & NX, once AGX files are available this guide will be updated**
 
-This guide will walk you through getting started with OnLogic’s Aetina Jetson devices. Getting familiar with SDK Manager and updating to Jetpack 6. This guide is specific to Aetina Jetson products, if you are using a Nvidia Dev Kit, refer to the Nvidia documentation as this guide has extra steps to enable Jetson production systems.
+This guide will walk you through getting started with OnLogic’s Aetina Jetson devices. Getting familiar with SDK Manager and updating to Jetpack 6. This guide is specific to Aetina Jetson products, if you are using a Nvidia Dev Kit, this guide can still be used, but you will use SDKManager for the entirety of the install and there is no patch needed.
 
 ## First Steps <br/>
 
