@@ -2,6 +2,8 @@
 
 This guide will walk you through getting started with OnLogic’s Aetina Jetson devices. Getting familiar with SDK Manager and updating to Jetpack 6. This guide is specific to Aetina Jetson products, if you are using a Nvidia Dev Kit, this guide can still be used, but you will use SDKManager for the entirety of the install and there is no patch needed.
 
+Note: Your device may already be loaded with Jetpack 6 if purchased after January 1st, 2025. If unsure you can follow "step 6: Verify Install Details on Jetson" at the bottom of this guide to check your Jetpack version.
+
 ## First Steps <br/>
 
 In order to get started, you will need the following:
