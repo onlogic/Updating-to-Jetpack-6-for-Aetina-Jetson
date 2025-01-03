@@ -8,7 +8,7 @@ Note: Your device may already be loaded with Jetpack 6 if purchased after Januar
 
 In order to get started, you will need the following:
 - A PC running Ubuntu 22.04 (Host PC)
- An Aetina Jetson Device
+- An Aetina Jetson Device
 - A USB-C to USB-A Cable
 - Mouse, Keyboard, Monitor (Ideally 2 sets)
 
